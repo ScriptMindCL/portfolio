@@ -33,6 +33,11 @@ footer {
     height: 400px;
     background: rgb(101, 63, 155);
     margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 span {
@@ -145,6 +150,19 @@ hr {
     font-size: 50px;
     font-weight: 500;
 }
+
+.footer-rrss a{
+    text-decoration: none;
+    color: #FCFCFC;
+    font-size: 50px;
+}
+
+.footer-creators,
+.footer-year {
+    font-size: 25px;
+    color: #FCFCFC;
+}
+
 
 /* 
 
